@@ -19,8 +19,10 @@ Este repositorio contiene el código fuente del proyecto CHATGPT-Example, una ap
 # Esquema del proyecto
 
     -Client (cliente consumidor de server)
+        -components
         -env
     -Server (servidor consumidor de api's)
+        -routes (openai.js para ver implementación de openai api)
         -env
 
 ## Cómo ejecutar el proyecto
